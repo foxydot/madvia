@@ -1,0 +1,186 @@
+/**************/
+/*** LAYOUT ***/
+/**************/
+/* Feed container */
+#cff {
+  float: left;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;  
+}
+/* Individual post item */
+#cff .cff-item{
+  float: left;
+  width: 100%;
+  clear: both;
+  padding: 20px 0 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+#cff .cff-item:first-child{
+  padding-top: 0;
+}
+/******************/
+/*** TYPOGRAPHY ***/
+/******************/
+/*See more/less links*/
+#cff .cff-less{
+  display: none;
+}
+/* Links */
+#cff a {
+  text-decoration: underline;
+}
+/* Post titles and body text */
+#cff h3, #cff h4, #cff h5, #cff h6, #cff p{
+  float: left;
+  width: 100%;
+  clear: both;
+  padding: 0;
+  margin: 5px 0;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -hp-pre-wrap;
+  word-wrap: break-word;
+}
+/* Date */
+#cff .cff-date{
+  float: left;
+  width: 100%;
+  font-size: 11px;
+}
+/************/
+/***AUTHOR***/
+/************/
+#cff .cff-author{
+  float: left;
+  clear: both;
+  display: block;
+  margin-bottom: 15px;
+}
+#cff .cff-author img{
+  float: left;
+  margin-right: 15px;
+}
+#cff .cff-author p{
+  float: left;
+  clear: none;
+  width: auto;
+  margin: 0;
+  padding-top: 15px;
+  font-weight: bold;
+}
+#cff .cff-author a{
+  text-decoration: none;
+}
+/*************/
+/*** MEDIA ***/
+/*************/
+#cff .cff-break-word{
+  word-break: break-all;
+}
+/* Link */
+#cff .cff-expand{
+  display: none;
+}
+#cff .cff-expand a{
+  font-size: 11px;
+  font-weight: normal;
+}
+/*Link image*/
+#cff .cff-link{
+  float: left;
+  clear: both;
+  max-width: 20%;
+  margin-top: 10px;
+}
+#cff .cff-link img{
+  max-width: 100%;
+}
+/*Link text*/
+#cff .cff-text-link{
+  float: left;
+  clear: none;
+  width: 72%;
+  margin-left: 3%;
+  padding: 5px 0 10px 0;
+}
+#cff .cff-text-link.cff-no-image{
+  width: 100%;
+  margin-left: 0;
+}
+/* Feed events */
+#cff .cff-details{
+  float: left;
+  clear: none;
+  width: 100%;
+  padding: 10px 0 0 0;
+}
+#cff .cff-details h5{
+  margin: 0 0 5px 0;
+  font-size: 16px;
+}
+#cff .cff-details p{
+  font-size: 14px;
+}
+#cff .cff-details .cff-info{
+  padding: 10px 0 0 0;
+  line-height: 1.2;
+}
+#cff .cff-details .cff-where,
+#cff .cff-details .cff-when{
+  /*font-weight: bold;*/
+}
+/* View on Facebook / View Link text */
+#cff .cff-viewpost-link,
+#cff .cff-viewpost-facebook{
+  float: right;
+  clear: none;
+  padding-top: 12px;
+  font-size: 11px;
+}
+/* Like box */
+#cff .cff-likebox iframe{
+  margin: 0;
+}
+#cff .cff-likebox{
+  float: left;
+  width: 100%;
+  margin-left: -10px;
+}
+/*Like box is not inside of #cff*/
+.cff-likebox.cff-top.cff-outside{
+  margin-bottom: 10px;
+}
+.cff-likebox.cff-bottom.cff-outside{
+  margin-top: 10px;
+}
+/* Clear fix */
+.cff-clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.cff-clear {
+    display: inline-block;
+    display: block;
+}
+/*********************/
+/*** STYLE OPTIONS ***/
+/*********************/
+#cff.cff-fixed-height{
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 5px 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
